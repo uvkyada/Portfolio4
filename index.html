@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <title>Portfolio</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+    <body>
+      <section id="home">
+        <!--portfolio home -->
+        <div class="relative">
+            <header class="w-full lg:fixed left-0 top-0 z-10 duration-500 ease-in-out">
+                <div class="max-w-screen-2xl mx-auto flex justify-between items-center py-3 px-5 lg:p-5 relative">
+                  <h2 class="text-3xl lg:text-5xl xl:text-black font-jost font-bold">TRIP<h2>
+                    <ul class="hidden xl:flex justify-between items-center font-semibold text-base xl:space-x-10
+                    absolute xl:relative top-full left-0 bg-white xl:bg-transparent w-full xl:w-auto p-5 xl:p-0" id="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#protfolio">Portfolio</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="block xl:hidden" id="menu-button">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" style="enable-background:new 0 0 24.75 24.75;" xml:space="preserve"><g><path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2 c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/></g><g></svg>
+                    </div>
+                </div>
+            </header>
+            <div class="flex h-screen">
+                <div class="xl:w-4/12 bg-white"></div>
+                <div class="w-full xl:w-8/12">
+                    <img src="../public/img/portfolio.jpg" alt="man" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="max-w-screen-2xl mx-auto px-5">
+                <div class="absolute top-[30%]">
+                    <h1 class="text-7xl lg:text-9xl text-white xl:text-black font-jost font-bold"><span class="text-border text-transparent">ROBERT </span><br> HOOK<h1>
+                    <p class="italic text-white xl:text-gray-600 pt-10">Creative Web & App Developer</p>
+                    <div class="scrolldown relative bottom-0">
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="max-w-screen-2xl mx-auto flex flex-wrap items-center px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28 space-y-10 lg:space-y-0">
+            <div class="w-full lg:w-4/12">
+                <img src="../public/img/portfolio2.jpg" class="w-full h-ful">
+            </div>
+            <div class="w-full lg:w-8/12 lg:pl-20">
+                <div class="pb-5">
+                    <span class="text-4xl md:text-7xl xl:text-9xl font-bold text-transparent text-b-di">ABOUT</span>
+                    <h2 class="text-2xl md:text-4xl text-black uppercase font-bold">Bernard Sydney</h2>
+                    <p class="italic text-gray-600">Creative Web & App Developer</p>
+                </div>
+                <hr>
+                <div class="py-5 md:py-9 text-gray-400">
+                    <p class="pb-4">Hello everybody! My name is Bernard Sydney. I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
+                    <p>With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+                </div>
+                <button class="bg-black py-5 px-14 text-white hover:text-black hover:bg-white hover:border-black hover:border ease-in-out duration-500">Learn More</button>
+            </div>
+        </div>  
+    </section>
+      
+    <section>
+        <div class="max-w-screen-2xl mx-auto flex flex-wrap items-center px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide md:pr-12">
+                      <div class="flex items-start">
+                          <div class="py-2.5 w-24 h-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" class="fn__svg  replaced-svg">
+                                <g>
+                                    <g>
+                                        <path d="M0,15.845v420.259h164.332v30.049h-30.036v30.001h243.407v-30.001h-30.036v-30.049H512V15.845H0z M317.665,466.153    H194.334v-30.049h123.332V466.153z M481.999,406.103H30.001v-60.075h451.997V406.103z M481.999,316.027H30.001V45.847h451.997    V316.027z"></path>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <polygon points="203.943,126.712 182.729,105.498 107.29,180.937 182.729,256.375 203.943,235.161 149.718,180.937   "></polygon>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <polygon points="329.271,105.498 308.057,126.712 362.282,180.937 308.057,235.161 329.271,256.375 404.709,180.937   "></polygon>
+                                    </g>
+                                </g>
+                                <g>
+                                <g>
+                                    <rect x="166.742" y="165.947" transform="matrix(0.1951 -0.9808 0.9808 0.1951 28.5815 396.7237)" width="178.511" height="30.002"></rect>
+                                </g>
+                                </g>
+                            </svg>
+                          </div>
+                          <div class="text-left pl-4">
+                            <h3 class="pb-5 font-lg font-semibold">Web Development</h3>
+                            <p class="text-gray-400">Web design is a similar process of creation, with the intention intention of the pre presenting...</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide md:pr-12">
+                      <div class="flex items-start">
+                          <div class="py-2.5 w-24 h-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" enable-background="new 0 0 511.73 511.73" viewBox="0 0 511.73 511.73" class="fn__svg  replaced-svg"><g id="XMLID_837_"><path id="XMLID_853_" d="m258.002 81.905c-.555-.006-1.104-.01-1.658-.01-36.652 0-71.396 14.032-97.988 39.616-27.006 25.981-42.411 60.803-43.376 98.05-.832 32.088 8.834 62.594 27.952 88.219 22.321 29.918 34.12 64.8 34.12 100.875v103.075h156.854l.018-98.865c0-37.491 12.314-73.727 35.612-104.79 18.46-24.612 28.217-53.925 28.217-84.769 0-37.482-14.516-72.8-40.874-99.445-26.337-26.624-61.452-41.524-98.877-41.956zm45.904 399.825h-96.854v-52.433h96.854zm-63.143-174.491c0-8.115 6.602-14.717 14.716-14.717s14.716 6.602 14.716 14.717c0 8.114-6.602 14.716-14.716 14.716s-14.716-6.601-14.716-14.716zm104.773-17.164c-24.415 32.553-38.508 70.066-41.155 109.223h-33.902v-49.939c17.3-6.179 29.717-22.724 29.717-42.12 0-24.657-20.06-44.717-44.716-44.717s-44.716 20.06-44.716 44.717c0 19.396 12.417 35.94 29.716 42.12v49.939h-33.651c-1.878-39.235-15.559-76.897-39.852-109.457-15.053-20.176-22.663-44.21-22.007-69.502 1.568-60.489 52.07-109.153 112.687-108.436 60.708.7 110.097 50.675 110.097 111.403-.001 24.301-7.684 47.39-22.218 66.769z"></path><path id="XMLID_1294_" d="m186.989 227.754 21.213 21.213c12.628-12.628 29.418-19.583 47.277-19.583s34.649 6.955 47.278 19.583l21.213-21.213c-18.295-18.295-42.618-28.37-68.491-28.37-25.872 0-50.196 10.075-68.49 28.37z"></path><path id="XMLID_1295_" d="m241.251 0h30v36.554h-30z"></path><path id="XMLID_1296_" d="m131.211 29.071h30v36.554h-30z" transform="matrix(.866 -.5 .5 .866 -4.086 79.447)"></path><path id="XMLID_1297_" d="m50.449 109.268h30v36.554h-30z" transform="matrix(.5 -.866 .866 .5 -77.733 120.451)"></path><path id="XMLID_1298_" d="m428.006 113.882h36.553v30h-36.553z" transform="matrix(.866 -.5 .5 .866 -4.652 240.404)"></path><path id="XMLID_1299_" d="m347.808 33.12h36.554v30h-36.554z" transform="matrix(.5 -.866 .866 .5 141.368 341.098)"></path></g></svg>
+                          </div>
+                          <div class="text-left pl-4">
+                            <h3 class="pb-5 font-lg font-semibold">Creative Design</h3>
+                            <p class="text-gray-400">Web design is a similar process of creation, with the intention intention of the pre presenting...</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide md:pr-12">
+                      <div class="flex items-start">
+                          <div class="py-2.5 w-24 h-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 -35 511.99993 511" class="fn__svg  replaced-svg"><path d="m121.453125 253.171875 63.554687 158.886719 82.75-82.753906 141.535157 112.503906 102.707031-441.308594-512 205.480469zm-39.933594-47.640625 244.046875-97.945312-194.074218 117.363281zm287.535157-89.25-161.980469 148.1875-19.484375 73.425781-36.035156-90.085937zm-149.851563 219.230469 9.816406-36.996094 15.144531 12.035156zm171.65625 53.394531-147.386719-117.152344 221.902344-203.007812zm0 0"></path></svg>
+                          </div>
+                          <div class="text-left pl-4">
+                            <h3 class="pb-5 font-lg font-semibold">Brand identity</h3>
+                            <p class="text-gray-400">Web design is a similar process of creation, with the intention intention of the pre presenting...</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide md:pr-12">
+                      <div class="flex items-start">
+                          <div class="py-2.5 w-24 h-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" class="fn__svg  replaced-svg">
+                                <g>
+                                    <g>
+                                        <path d="M0,0v512h512V0H0z M482,482H30V30h452V482z"></path>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M213.102,181.6h-72.24V352h33.12v-57.12h40.32c29.531,0,53.04-25.713,53.04-56.64    C267.342,212,246.166,181.6,213.102,181.6z M212.382,265.84h-38.4v-55.2h36.96c14.057,0,22.8,13.2,22.8,27.6    C233.742,255,224,265.84,212.382,265.84z"></path>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M336.939,276.64c-4.642-1.118-24.72-4.39-24.72-15.84c0-9.175,7.531-14.16,19.2-14.16c15.831,0,30.079,9.12,36.48,13.92    l12.96-19.44c-6.881-6.079-21.609-17.28-49.2-17.28c-26.284,0-49.44,14.91-49.44,41.52c0,27.64,36.72,32.801,44.88,35.04    c9.757,2.723,27.6,6.225,27.6,17.04c0,8.81-8.449,13.92-20.64,13.92c-18.809,0-36.48-11.119-44.16-16.56l-12,20.16    c7.2,6.24,27.851,19.44,56.88,19.44c15.679,0,50.88-4.9,50.88-39.84C385.659,285,345.579,278.882,336.939,276.64z"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                          </div>
+                          <div class="text-left pl-4">
+                            <h3 class="pb-5 font-lg font-semibold">Adobe Photoshop</h3>
+                            <p class="text-gray-400">Web design is a similar process of creation, with the intention intention of the pre presenting...</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-100" id="protfolio">
+      <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+        <div class="pb-3 md:pb-10 xl:pb-24 px-0 md:px-5 text-center">
+          <span class="text-4xl md:text-7xl xl:text-9xl font-bold text-transparent text-b-di">PORTFOLIO</span>
+          <h2 class="text-2xl md:text-4xl text-black uppercase font-bold">FEATURED WORKS</h2>
+        </div>
+          <div class="w-full">
+              <div class="flex flex-wrap">
+                  <div class="w-full md:w-1/2 lg:w-1/3 relative overflow-hidden anim group py-3.5 px-0 md:p-3.5 cursor-pointer">
+                    <span class="absolute w-full anim h-[calc(100%+1700px)] top-[600px] -translate-y-1/2 -rotate-45 bg-white opacity-50 -right-[1200px] block delay-150 group-hover:right-full z-10"></span>
+                      <div class="relative">
+                          <img src="../public/img/charry.jpg" class="w-full h-full object-cover">
+                          <div class="w-full absolute top-0 pt-10"><a href="#"><h3 class="bg-gradient text-xl py-2 px-10">Sweet <b>Cherry</b></h3></a></div>
+                          <div class="flex items-center absolute right-0 bottom-10 px-5">
+                              <p><a href="#"><span class="text-lg font-light">Vimeo</span></a></p>
+                              <span class="ml-1" style="width: 5px;height: 25px;border-color: #000;background-color: #000;vertical-align: middle;"></span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="w-full md:w-1/2 lg:w-1/3 relative overflow-hidden anim group py-3.5 px-0 md:p-3.5 cursor-pointer">
+                    <span class="absolute w-full anim h-[calc(100%+1700px)] top-[600px] -translate-y-1/2 -rotate-45 bg-white opacity-50 -right-[1200px] block delay-150 group-hover:right-full z-10"></span>
+                      <div class="relative">
+                          <img src="../public/img/deliciusfroot.jpg" class="w-full h-full object-cover">
+                          <div class="w-full absolute top-0 pt-10"><a href="#"><h3 class="bg-gradient text-xl py-2 px-10">Delicious <b>Fruit</b></h3></a></div>
+                          <div class="flex items-center absolute right-0 bottom-10 px-5">
+                              <p><a href="#"><span class="text-lg font-light">Youtube</span></a></p>
+                              <span class="ml-1" style="width: 5px;height: 25px;border-color: #000;background-color: #000;vertical-align: middle;"></span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="w-full md:w-1/2 lg:w-1/3 relative overflow-hidden anim group py-3.5 px-0 md:p-3.5 cursor-pointer">
+                    <span class="absolute w-full anim h-[calc(100%+1700px)] top-[600px] -translate-y-1/2 -rotate-45 bg-white opacity-50 -right-[1200px] block delay-150 group-hover:right-full z-10"></span>
+                      <div class="relative">
+                          <img src="../public/img/lemon.jpg" class="w-full h-full object-cover">
+                          <div class="w-full absolute top-0 pt-10"><a href="#"><h3 class="bg-gradient text-xl py-2 px-10">Blue <b>Lemon</b></h3></a></div>
+                          <div class="flex items-center absolute right-0 bottom-10 px-5">
+                              <p><a href="#"><span class="text-lg font-light">Soundcloud</span></a></p>
+                              <span class="ml-1" style="width: 5px;height: 25px;border-color: #000;background-color: #000;vertical-align: middle;"></span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="w-full md:w-1/2 lg:w-1/3 relative overflow-hidden anim group py-3.5 px-0 md:p-3.5 cursor-pointer">
+                    <span class="absolute w-full anim h-[calc(100%+1700px)] top-[600px] -translate-y-1/2 -rotate-45 bg-white opacity-50 -right-[1200px] block delay-150 group-hover:right-full z-10"></span>
+                      <div class="relative">
+                          <img src="../public/img/music.jpg" class="w-full h-full object-cover">
+                          <div class="w-full absolute top-0 pt-10"><a href="#"><h3 class="bg-gradient text-xl py-2 px-10">Mockup <b>Headphone</b></h3></a></div>
+                          <div class="flex items-center absolute right-0 bottom-10 px-5">
+                              <p><a href="#"><span class="text-lg font-light">Image</span></a></p>
+                              <span class="ml-1" style="width: 5px;height: 25px;border-color: #000;background-color: #000;vertical-align: middle;"></span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="w-full md:w-1/2 lg:w-1/3 relative overflow-hidden anim group py-3.5 px-0 md:p-3.5 cursor-pointer">
+                    <span class="absolute w-full anim h-[calc(100%+1700px)] top-[600px] -translate-y-1/2 -rotate-45 bg-white opacity-50 -right-[1200px] block delay-150 group-hover:right-full z-10"></span>
+                      <div class="relative">
+                          <img src="../public/img/icecrem.jpg" class="w-full h-full object-cover">
+                          <div class="w-full absolute top-0 pt-10"><a href="#"><h3 class="bg-gradient text-xl py-2 px-10">Ice <b>Cream</b></h3></a></div>
+                          <div class="flex items-center absolute right-0 bottom-10 px-5">
+                              <p><a href="#"><span class="text-lg font-light">Image</span></a></p>
+                              <span class="ml-1" style="width: 5px;height: 25px;border-color: #000;background-color: #000;vertical-align: middle;"></span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="w-full md:w-1/2 lg:w-1/3 relative overflow-hidden anim group py-3.5 px-0 md:p-3.5 cursor-pointer">
+                    <span class="absolute w-full anim h-[calc(100%+1700px)] top-[600px] -translate-y-1/2 -rotate-45 bg-white opacity-50 -right-[1200px] block delay-150 group-hover:right-full z-10"></span>
+                      <div class="relative">
+                          <img src="../public/img/present.jpg" class="w-full h-full object-cover">
+                          <div class="w-full absolute top-0 pt-10"><a href="#"><h3 class="bg-gradient text-xl py-2 px-10">Good <b>Present</b></h3></a></div>
+                          <div class="flex items-center absolute right-0 bottom-10 px-5">
+                              <p><a href="#"><span class="text-lg font-light">Image</span></a></p>
+                              <span class="ml-1" style="width: 5px;height: 25px;border-color: #000;background-color: #000;vertical-align: middle;"></span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+        <div class="pb-3 md:pb-10 xl:pb-24 px-0 md:px-5 text-center">
+          <span class="text-4xl md:text-7xl xl:text-9xl font-bold text-transparent text-b-di">TESTIMONIAL</span>
+          <h2 class="text-2xl md:text-4xl text-black uppercase font-bold">what clients say</h2>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <p class="text-left border p-8 text-gray-500 sharp">Good overall theme. I am getting back into coding and had a simple question for the author. Thank you!</p>
+                <div class="flex items-center pt-10">
+                  <img src="../public/img/1person.jpg" class="rounded-full w-14 h-14">
+                  <div class="w-full text-left pl-5">
+                    <h3 class="text-base font-bold">David Johnson</h3>
+                    <span class="text-sm font-normal text-gray-400 italic">ABC Digital</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="text-left border p-8 text-gray-500 sharp">Good overall theme. I am getting back into coding and had a simple question for the author. Thank you!</p>
+                <div class="flex items-center pt-10">
+                  <img src="../public/img/2person.jpg" class="rounded-full w-14 h-14">
+                  <div class="w-full text-left pl-5">
+                    <h3 class="text-base font-bold">David Johnson</h3>
+                    <span class="text-sm font-normal text-gray-400 italic">ABC Digital</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="text-left border p-8 text-gray-500 sharp">Good overall theme. I am getting back into coding and had a simple question for the author. Thank you!</p>
+                <div class="flex items-center pt-10">
+                  <img src="../public/img/3person.jpg" class="rounded-full w-14 h-14">
+                  <div class="w-full text-left pl-5">
+                    <h3 class="text-base font-bold">David Johnson</h3>
+                    <span class="text-sm font-normal text-gray-400 italic">ABC Digital</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="text-left border p-8 text-gray-500 sharp">Good overall theme. I am getting back into coding and had a simple question for the author. Thank you!</p>
+                <div class="flex items-center pt-10">
+                  <img src="../public/img/4person.jpg" class="rounded-full w-14 h-14">
+                  <div class="w-full text-left pl-5">
+                    <h3 class="text-base font-bold">David Johnson</h3>
+                    <span class="text-sm font-normal text-gray-400 italic">ABC Digital</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="text-left border p-8 text-gray-500 sharp">Good overall theme. I am getting back into coding and had a simple question for the author. Thank you!</p>
+                <div class="flex items-center pt-10">
+                  <img src="../public/img/5person.jpg" class="rounded-full w-14 h-14">
+                  <div class="w-full text-left pl-5">
+                    <h3 class="text-base font-bold">David Johnson</h3>
+                    <span class="text-sm font-normal text-gray-400 italic">ABC Digital</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100" id="news">
+      <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+        <div class="pb-3 md:pb-10 xl:pb-24 px-0 md:px-5 text-center">
+          <span class="text-4xl md:text-7xl xl:text-9xl font-bold text-transparent text-b-di">NEWS</span>
+          <h2 class="text-2xl md:text-4xl text-black uppercase font-bold">LATEST NEWS</h2>
+        </div>
+        <div class="mx-auto">
+          <div class="flex flex-wrap justify-center">
+            <div class="md:w-1/2 xl:w-1/3 py-3.5 md:p-5">
+              <div class="bg-white shadow-xl">
+                <div class="h-72 overflow-hidden">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="../public/img/1card.jpg">
+                </div>
+                <div class="p-5">
+                  <a class="text-gray-400 flex flex-wrap items-center py-3">
+                    <svg class="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 248.349 248.349" style="enable-background:new 0 0 248.349 248.349;" xml:space="preserve" class="fn__svg  replaced-svg">
+                        <path d="M9.954,241.305h228.441c3.051,0,5.896-1.246,7.805-3.416c1.659-1.882,2.393-4.27,2.078-6.723    c-5.357-41.734-31.019-76.511-66.15-95.053c-14.849,14.849-35.348,24.046-57.953,24.046s-43.105-9.197-57.953-24.046    C31.09,154.65,5.423,189.432,0.071,231.166c-0.315,2.453,0.424,4.846,2.078,6.723C4.058,240.059,6.903,241.305,9.954,241.305z"></path>
+                        <path d="M72.699,127.09c1.333,1.398,2.725,2.73,4.166,4.019c12.586,11.259,29.137,18.166,47.309,18.166    s34.723-6.913,47.309-18.166c1.441-1.289,2.834-2.622,4.166-4.019c1.327-1.398,2.622-2.828,3.84-4.329    c9.861-12.211,15.8-27.717,15.8-44.6c0-39.216-31.906-71.116-71.116-71.116S53.059,38.95,53.059,78.16    c0,16.883,5.939,32.39,15.8,44.6C70.072,124.262,71.366,125.687,72.699,127.09z"></path>
+                    </svg>
+                    <p class="text-base pl-2.5">Marketify</p>
+                    <span class="px-2.5">|</span>
+                    <svg class="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 395 395" style="enable-background:new 0 0 395 395;" xml:space="preserve" class="fn__svg  replaced-svg">
+                      <g>
+                        <polygon points="278.333,52.5 278.333,12.5 248.333,12.5 248.333,52.5 146.667,52.5 146.667,12.5 116.667,12.5 116.667,52.5    0,52.5 0,117.5 395,117.5 395,52.5  "></polygon>
+                        <path d="M0,382.5h395v-235H0V382.5z M262.5,195h50v50h-50V195z M262.5,285h50v50h-50V285z M172.5,195h50v50h-50V195z M172.5,285h50   v50h-50V285z M82.5,195h50v50h-50V195z M82.5,285h50v50h-50V285z"></path>
+                      </g>
+                    </svg>
+                    <p class="pl-2.5">October 11, 2021</p>
+                  </a>
+                  <p class="text-xl font-medium pt-5 border-t">How to be appreciated for your hard work as a developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-1/2 xl:w-1/3 py-3.5 md:p-5">
+              <div class="bg-white shadow-xl">
+                <div class="h-72 overflow-hidden">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="../public/img/2card.jpg">
+                </div>
+                <div class="p-5">
+                  <a class="text-gray-400 flex flex-wrap items-center py-3">
+                    <svg class="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 248.349 248.349" style="enable-background:new 0 0 248.349 248.349;" xml:space="preserve" class="fn__svg  replaced-svg">
+                        <path d="M9.954,241.305h228.441c3.051,0,5.896-1.246,7.805-3.416c1.659-1.882,2.393-4.27,2.078-6.723    c-5.357-41.734-31.019-76.511-66.15-95.053c-14.849,14.849-35.348,24.046-57.953,24.046s-43.105-9.197-57.953-24.046    C31.09,154.65,5.423,189.432,0.071,231.166c-0.315,2.453,0.424,4.846,2.078,6.723C4.058,240.059,6.903,241.305,9.954,241.305z"></path>
+                        <path d="M72.699,127.09c1.333,1.398,2.725,2.73,4.166,4.019c12.586,11.259,29.137,18.166,47.309,18.166    s34.723-6.913,47.309-18.166c1.441-1.289,2.834-2.622,4.166-4.019c1.327-1.398,2.622-2.828,3.84-4.329    c9.861-12.211,15.8-27.717,15.8-44.6c0-39.216-31.906-71.116-71.116-71.116S53.059,38.95,53.059,78.16    c0,16.883,5.939,32.39,15.8,44.6C70.072,124.262,71.366,125.687,72.699,127.09z"></path>
+                    </svg>
+                    <p class="text-base pl-2.5">Marketify</p>
+                    <span class="px-2.5">|</span>
+                    <svg class="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 395 395" style="enable-background:new 0 0 395 395;" xml:space="preserve" class="fn__svg  replaced-svg">
+                      <g>
+                        <polygon points="278.333,52.5 278.333,12.5 248.333,12.5 248.333,52.5 146.667,52.5 146.667,12.5 116.667,12.5 116.667,52.5    0,52.5 0,117.5 395,117.5 395,52.5  "></polygon>
+                        <path d="M0,382.5h395v-235H0V382.5z M262.5,195h50v50h-50V195z M262.5,285h50v50h-50V285z M172.5,195h50v50h-50V195z M172.5,285h50   v50h-50V285z M82.5,195h50v50h-50V195z M82.5,285h50v50h-50V285z"></path>
+                      </g>
+                    </svg>
+                    <p class="pl-2.5">October 11, 2021</p>
+                  </a>
+                  <p class="text-xl font-medium pt-5 border-t">How to be appreciated for your hard work as a developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-1/2 xl:w-1/3 py-3.5 md:p-5">
+              <div class="bg-white shadow-xl">
+                <div class="h-72 overflow-hidden">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="../public/img/3card.jpg">
+                </div>
+                <div class="p-5">
+                  <a class="text-gray-400 flex flex-wrap items-center py-3">
+                    <svg class="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 248.349 248.349" style="enable-background:new 0 0 248.349 248.349;" xml:space="preserve" class="fn__svg  replaced-svg">
+                        <path d="M9.954,241.305h228.441c3.051,0,5.896-1.246,7.805-3.416c1.659-1.882,2.393-4.27,2.078-6.723    c-5.357-41.734-31.019-76.511-66.15-95.053c-14.849,14.849-35.348,24.046-57.953,24.046s-43.105-9.197-57.953-24.046    C31.09,154.65,5.423,189.432,0.071,231.166c-0.315,2.453,0.424,4.846,2.078,6.723C4.058,240.059,6.903,241.305,9.954,241.305z"></path>
+                        <path d="M72.699,127.09c1.333,1.398,2.725,2.73,4.166,4.019c12.586,11.259,29.137,18.166,47.309,18.166    s34.723-6.913,47.309-18.166c1.441-1.289,2.834-2.622,4.166-4.019c1.327-1.398,2.622-2.828,3.84-4.329    c9.861-12.211,15.8-27.717,15.8-44.6c0-39.216-31.906-71.116-71.116-71.116S53.059,38.95,53.059,78.16    c0,16.883,5.939,32.39,15.8,44.6C70.072,124.262,71.366,125.687,72.699,127.09z"></path>
+                    </svg>
+                    <p class="text-base pl-2.5">Marketify</p>
+                    <span class="px-2.5">|</span>
+                    <svg class="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 395 395" style="enable-background:new 0 0 395 395;" xml:space="preserve" class="fn__svg  replaced-svg">
+                      <g>
+                        <polygon points="278.333,52.5 278.333,12.5 248.333,12.5 248.333,52.5 146.667,52.5 146.667,12.5 116.667,12.5 116.667,52.5    0,52.5 0,117.5 395,117.5 395,52.5  "></polygon>
+                        <path d="M0,382.5h395v-235H0V382.5z M262.5,195h50v50h-50V195z M262.5,285h50v50h-50V285z M172.5,195h50v50h-50V195z M172.5,285h50   v50h-50V285z M82.5,195h50v50h-50V195z M82.5,285h50v50h-50V285z"></path>
+                      </g>
+                    </svg>
+                    <p class="pl-2.5">October 11, 2021</p>
+                  </a>
+                  <p class="text-xl font-medium pt-5 border-t">How to be appreciated for your hard work as a developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <div class="max-w-screen-2xl mx-auto px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+        <div class="pb-0 md:pb-10 xl:pb-24 px-0 lg:px-5">
+          <span class="text-4xl md:text-7xl xl:text-9xl font-bold text-transparent text-b-di">CONTACT</span>
+          <h2 class="text-2xl md:text-4xl text-black uppercase font-bold">get in touch</h2>
+        </div>
+      <div class="w-full flex flex-wrap items-center">
+        <div class="w-full lg:w-1/2 px-0 lg:px-5">
+          <p class="leading-relaxed mb-5 text-gray-600">Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+          <div class="relative mb-3 md:mb-6">
+            <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-black focus:ring-2 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Name">
+          </div>
+          <div class="relative mb-3 md:mb-6">
+            <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-black focus:ring-2 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Email">
+          </div>
+          <div class="relative mb-3 md:mb-6">
+            <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-black focus:ring-2 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" placeholder="Message"></textarea>
+          </div>
+          <button class="w-full bg-black py-5 px-14 font-medium text-white hover:text-black hover:bg-white hover:border-black hover:border ease-in-out duration-500 uppercase">Submit Message</button>
+          <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+        </div>
+        <div class="w-full lg:w-1/2 pt-6 lg:pt-0 px-0 lg:px-5 overflow-hidden">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29752.372694771508!2d72.81272570439023!3d21.23000115010406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04eeb5c1077c1%3A0xf3db03f8cc74c359!2sKatargam%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1648830634983!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black">
+      <div class="max-w-screen-2xl mx-auto flex flex-wrap items-center justify-between text-white font-normal px-5 lg:px-9 py-12 lg:py-16 xl:py-24 2xl:py-28">
+          <div class="w-full md:w-1/3 lg:w-1/4 pb-5 lg:pb-0">
+            <p>WAXON</p>
+            <p>PORTFOLIO THEME</p>
+          </div>
+          <div class="w-full md:w-1/3 lg:w-1/4 pb-5 lg:pb-0">
+            <p>Brook 103,</p>
+            <p>90021 New York, USA</p>
+          </div>
+          <div class="w-full md:w-1/3 lg:w-1/4 pb-5 lg:pb-0">
+            <p>hi@waxon.com</p>
+            <p>+77 033 442-55-57</p>
+          </div>
+          <div class="w-full md:w-1/3 lg:w-1/4 flex items-center space-x-9">
+            <a href="#" class="block overflow-hidden relative">
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="9.713" height="16.732" viewBox="0 0 9.713 16.732">
+                <g id="Group_502" data-name="Group 502" transform="translate(0.25 0.25)">
+                  <path id="Path_101" data-name="Path 101" d="M6.191,16.232h-2.6a.788.788,0,0,1-.787-.787V9.581H1.287A.788.788,0,0,1,.5,8.794V6.281a.788.788,0,0,1,.787-.787H2.8V4.236A4.284,4.284,0,0,1,3.937,1.167,4.08,4.08,0,0,1,6.945,0L8.927,0A.789.789,0,0,1,9.713.79V3.123a.788.788,0,0,1-.787.787H7.591c-.407,0-.511.082-.533.107-.037.041-.08.159-.08.483v.994H8.826a.8.8,0,0,1,.39.1.79.79,0,0,1,.405.689V8.794a.788.788,0,0,1-.787.787H6.978v5.863a.788.788,0,0,1-.788.787ZM3.756,15.28H6.027V9.155a.526.526,0,0,1,.526-.526H8.668V6.446H6.552a.526.526,0,0,1-.526-.526V4.5a1.621,1.621,0,0,1,.318-1.112,1.613,1.613,0,0,1,1.246-.428H8.762v-2l-1.818,0A3,3,0,0,0,3.756,4.236V5.92a.526.526,0,0,1-.526.526H1.452V8.629H3.23a.526.526,0,0,1,.526.526ZM8.925.954h0Zm0,0" transform="translate(-0.5 0)"/>
+                </g>
+              </svg>
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="9.713" height="16.732" viewBox="0 0 9.713 16.732">
+                <g id="Group_502" data-name="Group 502" transform="translate(0.25 0.25)">
+                  <path id="Path_101" data-name="Path 101" d="M6.191,16.232h-2.6a.788.788,0,0,1-.787-.787V9.581H1.287A.788.788,0,0,1,.5,8.794V6.281a.788.788,0,0,1,.787-.787H2.8V4.236A4.284,4.284,0,0,1,3.937,1.167,4.08,4.08,0,0,1,6.945,0L8.927,0A.789.789,0,0,1,9.713.79V3.123a.788.788,0,0,1-.787.787H7.591c-.407,0-.511.082-.533.107-.037.041-.08.159-.08.483v.994H8.826a.8.8,0,0,1,.39.1.79.79,0,0,1,.405.689V8.794a.788.788,0,0,1-.787.787H6.978v5.863a.788.788,0,0,1-.788.787ZM3.756,15.28H6.027V9.155a.526.526,0,0,1,.526-.526H8.668V6.446H6.552a.526.526,0,0,1-.526-.526V4.5a1.621,1.621,0,0,1,.318-1.112,1.613,1.613,0,0,1,1.246-.428H8.762v-2l-1.818,0A3,3,0,0,0,3.756,4.236V5.92a.526.526,0,0,1-.526.526H1.452V8.629H3.23a.526.526,0,0,1,.526.526ZM8.925.954h0Zm0,0" transform="translate(-0.5 0)"/>
+                </g>
+              </svg>
+            </a>  
+            <a href="#" class="block overflow-hidden relative">
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="16.749" height="16.618" viewBox="0 0 16.749 16.618">
+                <g id="Group_503" data-name="Group 503" transform="translate(0.25 0.25)">
+                  <g id="Group_486" data-name="Group 486" transform="translate(0 0)">
+                    <path id="Path_741" data-name="Path 741" d="M7.813,172.485h4.245V161.322H7.813Zm.961-10.2H11.1v9.242H8.774Z" transform="translate(-7.563 -156.367)" />
+                    <path id="Path_742" data-name="Path 742" d="M2.373,2.065A2.373,2.373,0,1,0,4.745,4.438,2.375,2.375,0,0,0,2.373,2.065ZM.961,4.438A1.412,1.412,0,1,1,2.373,5.85,1.414,1.414,0,0,1,.961,4.438Z" transform="translate(0 -2.065)" />
+                    <path id="Path_743" data-name="Path 743" d="M179.778,154.493a4.158,4.158,0,0,0-4.21-3.847,4.22,4.22,0,0,0-2.7.969v-.628H168.8v11.163h4.245v-6.105a1.248,1.248,0,1,1,2.5,0l0,6.1h4.245V154.5Zm-7.695,6.7H169.76v-9.242h2.146v1.372l.769,0,.143-.222a3.257,3.257,0,0,1,2.75-1.5,3.2,3.2,0,0,1,3.259,3.106v6.478H176.5l0-5.145a2.208,2.208,0,1,0-4.417,0Z" transform="translate(-163.54 -146.033)"/>
+                  </g>
+                </g>
+              </svg>
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="16.749" height="16.618" viewBox="0 0 16.749 16.618">
+                <g id="Group_503" data-name="Group 503" transform="translate(0.25 0.25)">
+                  <g id="Group_486" data-name="Group 486" transform="translate(0 0)">
+                    <path id="Path_741" data-name="Path 741" d="M7.813,172.485h4.245V161.322H7.813Zm.961-10.2H11.1v9.242H8.774Z" transform="translate(-7.563 -156.367)" />
+                    <path id="Path_742" data-name="Path 742" d="M2.373,2.065A2.373,2.373,0,1,0,4.745,4.438,2.375,2.375,0,0,0,2.373,2.065ZM.961,4.438A1.412,1.412,0,1,1,2.373,5.85,1.414,1.414,0,0,1,.961,4.438Z" transform="translate(0 -2.065)" />
+                    <path id="Path_743" data-name="Path 743" d="M179.778,154.493a4.158,4.158,0,0,0-4.21-3.847,4.22,4.22,0,0,0-2.7.969v-.628H168.8v11.163h4.245v-6.105a1.248,1.248,0,1,1,2.5,0l0,6.1h4.245V154.5Zm-7.695,6.7H169.76v-9.242h2.146v1.372l.769,0,.143-.222a3.257,3.257,0,0,1,2.75-1.5,3.2,3.2,0,0,1,3.259,3.106v6.478H176.5l0-5.145a2.208,2.208,0,1,0-4.417,0Z" transform="translate(-163.54 -146.033)"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="#" class="block overflow-hidden relative">
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="17.032" height="17.032" viewBox="0 0 17.032 17.032">
+                <g id="Group_504" data-name="Group 504" transform="translate(0.4 0.4)">
+                  <g id="Group_487" data-name="Group 487" transform="translate(0)">
+                    <path id="Path_744" data-name="Path 744" d="M13.855,2.377A8.116,8.116,0,0,0,2.377,13.855,8.116,8.116,0,0,0,13.855,2.377Zm1.387,6.491a14.3,14.3,0,0,0-4.851-.52q-.269-.828-.633-1.672A14.1,14.1,0,0,0,14.242,4.4a7.119,7.119,0,0,1,1.039,3.721A7.288,7.288,0,0,1,15.242,8.868ZM13.182,3.05a7.3,7.3,0,0,1,.511.568A13.147,13.147,0,0,1,9.357,5.8,26.59,26.59,0,0,0,6.432,1.15a7.217,7.217,0,0,1,1.684-.2,7.118,7.118,0,0,1,5.066,2.1ZM3.05,3.05A7.15,7.15,0,0,1,5.461,1.457,25.739,25.739,0,0,1,8.41,6.029a12.915,12.915,0,0,1-2.225.248,14.079,14.079,0,0,1-4.765-.72A7.146,7.146,0,0,1,3.05,3.05ZM.951,8.116a7.218,7.218,0,0,1,.19-1.649,15.081,15.081,0,0,0,4.71.766c.118,0,.237,0,.357,0a13.847,13.847,0,0,0,2.617-.313q.349.792.608,1.562A8.068,8.068,0,0,0,6.359,9.715a8.491,8.491,0,0,0-3,3.762q-.16-.142-.313-.294a7.118,7.118,0,0,1-2.1-5.066Zm3.193,5.966A7.616,7.616,0,0,1,6.893,10.5,7.136,7.136,0,0,1,9.713,9.39a11.454,11.454,0,0,1,.217,5.66,7.205,7.205,0,0,1-1.814.231A7.115,7.115,0,0,1,4.144,14.082Zm9.038-.9a7.158,7.158,0,0,1-2.209,1.508,12.024,12.024,0,0,0-.014-4.045q-.112-.674-.294-1.367a13.629,13.629,0,0,1,4.415.531,7.119,7.119,0,0,1-1.9,3.373Z" transform="translate(0)"/>
+                  </g>
+                </g>
+              </svg>
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="17.032" height="17.032" viewBox="0 0 17.032 17.032">
+                <g id="Group_504" data-name="Group 504" transform="translate(0.4 0.4)">
+                  <g id="Group_487" data-name="Group 487" transform="translate(0)">
+                    <path id="Path_744" data-name="Path 744" d="M13.855,2.377A8.116,8.116,0,0,0,2.377,13.855,8.116,8.116,0,0,0,13.855,2.377Zm1.387,6.491a14.3,14.3,0,0,0-4.851-.52q-.269-.828-.633-1.672A14.1,14.1,0,0,0,14.242,4.4a7.119,7.119,0,0,1,1.039,3.721A7.288,7.288,0,0,1,15.242,8.868ZM13.182,3.05a7.3,7.3,0,0,1,.511.568A13.147,13.147,0,0,1,9.357,5.8,26.59,26.59,0,0,0,6.432,1.15a7.217,7.217,0,0,1,1.684-.2,7.118,7.118,0,0,1,5.066,2.1ZM3.05,3.05A7.15,7.15,0,0,1,5.461,1.457,25.739,25.739,0,0,1,8.41,6.029a12.915,12.915,0,0,1-2.225.248,14.079,14.079,0,0,1-4.765-.72A7.146,7.146,0,0,1,3.05,3.05ZM.951,8.116a7.218,7.218,0,0,1,.19-1.649,15.081,15.081,0,0,0,4.71.766c.118,0,.237,0,.357,0a13.847,13.847,0,0,0,2.617-.313q.349.792.608,1.562A8.068,8.068,0,0,0,6.359,9.715a8.491,8.491,0,0,0-3,3.762q-.16-.142-.313-.294a7.118,7.118,0,0,1-2.1-5.066Zm3.193,5.966A7.616,7.616,0,0,1,6.893,10.5,7.136,7.136,0,0,1,9.713,9.39a11.454,11.454,0,0,1,.217,5.66,7.205,7.205,0,0,1-1.814.231A7.115,7.115,0,0,1,4.144,14.082Zm9.038-.9a7.158,7.158,0,0,1-2.209,1.508,12.024,12.024,0,0,0-.014-4.045q-.112-.674-.294-1.367a13.629,13.629,0,0,1,4.415.531,7.119,7.119,0,0,1-1.9,3.373Z" transform="translate(0)"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="#" class="block overflow-hidden relative">
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="19.172" height="16.747" viewBox="0 0 19.172 16.747">
+                <g id="Group_98" data-name="Group 98" transform="translate(0.252 0.265)">
+                  <g id="Group_97" data-name="Group 97">
+                    <path id="Path_100" data-name="Path 100" d="M18.578,36.078a.556.556,0,0,0-.522-.263l-.93.081.889-1.793a.556.556,0,0,0-.743-.747l-2.354,1.153a3.976,3.976,0,0,0-4.521.6,4.814,4.814,0,0,0-1.49,3.87,8.1,8.1,0,0,1-6.4-4.356.556.556,0,0,0-.937-.066,3.817,3.817,0,0,0-.242,4c-.183-.046-.378-.109-.594-.181a.556.556,0,0,0-.725.618,4.68,4.68,0,0,0,2.658,3.54,4.672,4.672,0,0,1-.584.162.556.556,0,0,0-.293.925,7.536,7.536,0,0,0,3.666,1.951c-1.232.965-2.562,1.126-4.5,1.06a.556.556,0,0,0-.431.93c.806.888,3.741,1.89,6.827,1.965q.183,0,.374,0a9.891,9.891,0,0,0,7.085-2.52,10.026,10.026,0,0,0,2.892-5.323,10.351,10.351,0,0,0,.019-3.489c-.007-.045-.014-.093-.019-.135l.87-1.4A.556.556,0,0,0,18.578,36.078ZM16.624,38.36a8.7,8.7,0,0,1-2.6,7.865c-1.9,1.9-4.661,2.238-6.645,2.19a14.967,14.967,0,0,1-4.305-.734A6.881,6.881,0,0,0,4.3,47.425a6.084,6.084,0,0,0,2.748-1.819.556.556,0,0,0-.34-.927,8.2,8.2,0,0,1-3.38-1.2,5.99,5.99,0,0,0,1.044-.554.556.556,0,0,0-.167-1A4.032,4.032,0,0,1,1.36,39.7a2.989,2.989,0,0,0,1.186-.015.556.556,0,0,0,.279-.929,2.942,2.942,0,0,1-.749-2.708,9.494,9.494,0,0,0,2.78,2.692,9.231,9.231,0,0,0,4.686,1.39.557.557,0,0,0,.556-.677,3.724,3.724,0,0,1,1.049-3.523,2.854,2.854,0,0,1,3.45-.322.557.557,0,0,0,.544.031l1.149-.563-.6,1.213a.556.556,0,0,0,.547.8l.811-.071-.373.6C16.547,37.824,16.573,38,16.624,38.36Z" transform="translate(-0.001 -33.299)" />
+                  </g>
+                </g>
+              </svg>
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="19.172" height="16.747" viewBox="0 0 19.172 16.747">
+                <g id="Group_98" data-name="Group 98" transform="translate(0.252 0.265)">
+                  <g id="Group_97" data-name="Group 97">
+                    <path id="Path_100" data-name="Path 100" d="M18.578,36.078a.556.556,0,0,0-.522-.263l-.93.081.889-1.793a.556.556,0,0,0-.743-.747l-2.354,1.153a3.976,3.976,0,0,0-4.521.6,4.814,4.814,0,0,0-1.49,3.87,8.1,8.1,0,0,1-6.4-4.356.556.556,0,0,0-.937-.066,3.817,3.817,0,0,0-.242,4c-.183-.046-.378-.109-.594-.181a.556.556,0,0,0-.725.618,4.68,4.68,0,0,0,2.658,3.54,4.672,4.672,0,0,1-.584.162.556.556,0,0,0-.293.925,7.536,7.536,0,0,0,3.666,1.951c-1.232.965-2.562,1.126-4.5,1.06a.556.556,0,0,0-.431.93c.806.888,3.741,1.89,6.827,1.965q.183,0,.374,0a9.891,9.891,0,0,0,7.085-2.52,10.026,10.026,0,0,0,2.892-5.323,10.351,10.351,0,0,0,.019-3.489c-.007-.045-.014-.093-.019-.135l.87-1.4A.556.556,0,0,0,18.578,36.078ZM16.624,38.36a8.7,8.7,0,0,1-2.6,7.865c-1.9,1.9-4.661,2.238-6.645,2.19a14.967,14.967,0,0,1-4.305-.734A6.881,6.881,0,0,0,4.3,47.425a6.084,6.084,0,0,0,2.748-1.819.556.556,0,0,0-.34-.927,8.2,8.2,0,0,1-3.38-1.2,5.99,5.99,0,0,0,1.044-.554.556.556,0,0,0-.167-1A4.032,4.032,0,0,1,1.36,39.7a2.989,2.989,0,0,0,1.186-.015.556.556,0,0,0,.279-.929,2.942,2.942,0,0,1-.749-2.708,9.494,9.494,0,0,0,2.78,2.692,9.231,9.231,0,0,0,4.686,1.39.557.557,0,0,0,.556-.677,3.724,3.724,0,0,1,1.049-3.523,2.854,2.854,0,0,1,3.45-.322.557.557,0,0,0,.544.031l1.149-.563-.6,1.213a.556.556,0,0,0,.547.8l.811-.071-.373.6C16.547,37.824,16.573,38,16.624,38.36Z" transform="translate(-0.001 -33.299)" />
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="#" class="block overflow-hidden relative">
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="9.713" height="16.732" viewBox="0 0 9.713 16.732">
+                <g id="Group_502" data-name="Group 502" transform="translate(0.25 0.25)">
+                  <path id="Path_101" data-name="Path 101" d="M6.191,16.232h-2.6a.788.788,0,0,1-.787-.787V9.581H1.287A.788.788,0,0,1,.5,8.794V6.281a.788.788,0,0,1,.787-.787H2.8V4.236A4.284,4.284,0,0,1,3.937,1.167,4.08,4.08,0,0,1,6.945,0L8.927,0A.789.789,0,0,1,9.713.79V3.123a.788.788,0,0,1-.787.787H7.591c-.407,0-.511.082-.533.107-.037.041-.08.159-.08.483v.994H8.826a.8.8,0,0,1,.39.1.79.79,0,0,1,.405.689V8.794a.788.788,0,0,1-.787.787H6.978v5.863a.788.788,0,0,1-.788.787ZM3.756,15.28H6.027V9.155a.526.526,0,0,1,.526-.526H8.668V6.446H6.552a.526.526,0,0,1-.526-.526V4.5a1.621,1.621,0,0,1,.318-1.112,1.613,1.613,0,0,1,1.246-.428H8.762v-2l-1.818,0A3,3,0,0,0,3.756,4.236V5.92a.526.526,0,0,1-.526.526H1.452V8.629H3.23a.526.526,0,0,1,.526.526ZM8.925.954h0Zm0,0" transform="translate(-0.5 0)" />
+                </g>
+              </svg>
+              <svg class="fill-current facebook h-8" xmlns="http://www.w3.org/2000/svg" width="9.713" height="16.732" viewBox="0 0 9.713 16.732">
+                <g id="Group_502" data-name="Group 502" transform="translate(0.25 0.25)">
+                  <path id="Path_101" data-name="Path 101" d="M6.191,16.232h-2.6a.788.788,0,0,1-.787-.787V9.581H1.287A.788.788,0,0,1,.5,8.794V6.281a.788.788,0,0,1,.787-.787H2.8V4.236A4.284,4.284,0,0,1,3.937,1.167,4.08,4.08,0,0,1,6.945,0L8.927,0A.789.789,0,0,1,9.713.79V3.123a.788.788,0,0,1-.787.787H7.591c-.407,0-.511.082-.533.107-.037.041-.08.159-.08.483v.994H8.826a.8.8,0,0,1,.39.1.79.79,0,0,1,.405.689V8.794a.788.788,0,0,1-.787.787H6.978v5.863a.788.788,0,0,1-.788.787ZM3.756,15.28H6.027V9.155a.526.526,0,0,1,.526-.526H8.668V6.446H6.552a.526.526,0,0,1-.526-.526V4.5a1.621,1.621,0,0,1,.318-1.112,1.613,1.613,0,0,1,1.246-.428H8.762v-2l-1.818,0A3,3,0,0,0,3.756,4.236V5.92a.526.526,0,0,1-.526.526H1.452V8.629H3.23a.526.526,0,0,1,.526.526ZM8.925.954h0Zm0,0" transform="translate(-0.5 0)" />
+                </g>
+              </svg>
+            </a>
+          </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          loop: true,
+          keyboard: {
+              enabled: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay:{
+                delay: 1000,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                0: {
+                slidesPerView: 1
+                },
+                700: {
+                slidesPerView: 2
+                },
+                1000: {
+                    slidesPerView: 3
+
+                }
+            }
+        });
+        // nav-bar
+        const button = document.querySelector('#menu-button');
+        const menu = document.querySelector('#menu');
+
+        button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        });
+        // header-scroll
+          window.onscroll = function() {scrollFunction()};
+              function scrollFunction() {
+              if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                  document.getElementsByTagName("header")[0].style.backgroundColor = "#fff";
+                  document.getElementsByTagName("header")[0].style.boxShadow = "0px 10px 30px rgba(0,0,0,0.1)";
+              } else {
+                  document.getElementsByTagName("header")[0].style.backgroundColor = "transparent";
+                  document.getElementsByTagName("header")[0].style.boxShadow = "0px 10px 30px rgba(0,0,0,0)";
+              }
+          }
+    </script>
+  </body>
+</html>
+
+
